@@ -1,0 +1,57 @@
+/* Importing Bootstrap */
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+/* Animated Gradient Background for the Header */
+@keyframes gradient-animation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+header {
+    background: linear-gradient(45deg, #007bff, #6610f2, #ff416c)!important;
+    background-size: 200% 200%;
+    animation: gradient-animation 8s ease infinite;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Body Background */
+body {
+    background: #f8f9fa; /* Light gray background for better readability */
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* About Section */
+#about {
+    background: linear-gradient(135deg, #ffe0e0, #e0ffe0);
+    color: #333;
+    text-align: center;
+    padding: 50px 20px;
+    border-radius: 10px;
+}
+
+/* Projects Section */
+#projects {
+    background: #fff; /* White background for cards */
+    padding: 50px 20px;
+}
+
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
