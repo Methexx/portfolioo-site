@@ -47,7 +47,7 @@
 ## Feeding
 
   <p align="statr">
-    <img src ="https://raw.githubusercontent.com/methexx/methexx/output/github-contribution-grid-snake-dark.svg">
+    <img src ="https://raw.githubusercontent.com/dizzpy/dizzpy/output/github-contribution-grid-snake-dark.svg">
   </p>
 
 
